@@ -4,12 +4,20 @@
 This repo show you how to prepare you Machine Learning model for production in AWS with the help of MLflow and AWS Command Line Inteface (AWS CLI).
 The image below shows the architecture and technologies used in this project.
 
-<<<<<<< HEAD
-<img src="/images/technologies.PNG" alt="diagrama", width=585> 
 
-=======
-<img src="images/technologies.PNG" alt="diagrama", width=585>
->>>>>>> 967df1abde783545b34479557e3462eb188cb021
+<img src="/images/technologies.PNG" alt="technologies", width=585> 
+...1
+<img src="/images/technologies.PNG" alt="technologies">
+...2
+<img src="./images/technologies.PNG" alt="technologies", width=585>
+...3
+<img src="./images/technologies.PNG" alt="technologies">
+...4
+![Technologies](./images/technologies.PNG) 
+...5
+![Technologies](/images/technologies.PNG) 
+
+
 ## Requirements
 
 - AWS Account.
