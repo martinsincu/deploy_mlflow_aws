@@ -1,7 +1,10 @@
+
 # Deploying Models to Production with MLflow and AWS (Sagemaker, Lambda function, API Gateway)
 
 This repo show you how to prepare you Machine Learning model for production in AWS with the help of MLflow and AWS Command Line Inteface (AWS CLI).
+The image below shows the architecture and technologies used in this project.
 
+<img src="images/technologies.png" alt="diagrama", width=585>
 ## Requirements
 
 - AWS Account.
@@ -60,3 +63,18 @@ We will create dedicated virtual environment.
 You should see mlflow dashboard interface
 
 ## Create Machine Learning model for *mlflow*
+### Step 1. Adapt your ML training code for mlflow
+### Step 2. Run the model and track metrics in mlflow
+
+
+## Deploy the model to AWS
+### Step 1. Build a Docker Image and push it to AWS ECR
+### Step 2. Deploy image to Sagemaker
+
+## Create Lamba Function on AWS
+
+## Create REST Api with AWS Gateway
+
+## Use REST API with a simple Webapp using streamlit
+
+- [Demo Web App](https://streamlit-app-challenge.herokuapp.com/)
