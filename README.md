@@ -28,7 +28,7 @@ We will create dedicated virtual environment.
 
 ### Step 3. Setup AWS IAM User and AWS CLI configuration
 
-* Create a new AWS AIM User
+* **Create a new AWS AIM User**
     * Open **Identity and Access management (IAM) dashboard**.
     * Click on **Users**.
     * Click **Add users** on the right side of the screenshot.
@@ -44,3 +44,19 @@ We will create dedicated virtual environment.
     * Click on **Create user**.
     * You will get a notification about sucessfully created new User on AWS IAM.
     **Important.** Keep safe you credentials on your own notes. This step is only one occasion you see AWS Secret Access Key. Rewrite it carefully.
+
+* **Setup AWS CLI configuration**
+    * Be sure you have installed *AWS CLI* and type command in your terminal: `aws configure`.
+    * Then you will have to enter your own credentials as follows:
+        * **AWS Access Key ID**: go to *IAM*, then Users, and click on your user just created. Select *Security credentials* tab and copy the value of *AWS Access Key ID*
+        * **AWS Secret Access Key**: paste this code from your own notes. You have seen this code originally from *Security credentials* of your user.
+        * **Default region name**: go to main AWS interface, click on your region, and check which region is activated for you (us-east-1, eu-west-1, and so on).
+        * **Default output format**: set it as *json*.
+
+### Step 4. Test if *mlflow* is working good
+* Before doing all following steps, we must be sure if our freshly installed *mlflow* service if working good on our local machine. To do it, type the following command in the terminal: `mlflow ui`.
+* Open the *mlflow* dashboard on you browser by entering following URL to your *localhost*: ``http://127.0.0.1:5000``. Please keep in mind that this service uses port 5000 on your machine (open the second terminal window on the same working directory before run this command).
+
+You should see mlflow dashboard interface
+
+## Create Machine Learning model for *mlflow*
