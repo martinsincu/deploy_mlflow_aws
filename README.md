@@ -5,17 +5,7 @@ This repo show you how to prepare you Machine Learning model for production in A
 The image below shows the architecture and technologies used in this project.
 
 
-<img src="/images/technologies.PNG" alt="technologies", width=585> 
-...1
-<img src="/images/technologies.PNG" alt="technologies">
-...2
-<img src="./images/technologies.PNG" alt="technologies", width=585>
-...3
-<img src="./images/technologies.PNG" alt="technologies">
-...4
-![Technologies](./images/technologies.PNG) 
-...5
-![Technologies](/images/technologies.PNG) 
+<img src="/images/technologies.PNG" alt="technologies"  width=400> 
 
 
 ## Requirements
