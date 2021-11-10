@@ -241,6 +241,19 @@ We might get a `Response 0` in the *Execution Results* tab.
 
 
 ## Create REST Api with AWS Gateway
+*   Go to **API Gatway** dashboard and Click on **Create API**
+*   In the **REST API** section Click on *Build* and write an *API name* (in my case `fraude_api`)
+*   Click on **Actions** and select *Create Method*
+*   Select **POST** Method and mark the check box.
+*   On the *POST - Setup* go to *Lambda Function* part and write `fraude_prediction` and Click on Ok
+*   Click on **Actions** and select *Deploy API*
+*   In Deployment stage select *[New Stage]*
+*   In Stage name write *fraudemodel* and click on **Deploy**
+
+<img src="/images/aws_API.PNG" alt="technologies"  width=500>
+
+
+
 
 ## Use REST API with a simple Webapp using streamlit
 
