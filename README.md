@@ -260,7 +260,9 @@ We might get a `Response 0` in the *Execution Results* tab.
 - [Repo Web App](https://github.com/martinsincu/webapp_challenge)
 
 ## Referencias
-- [ScalarPy](https://www.youtube.com/watch?v=BgougRcbYCE)
-- [Data Science Garage](https://www.youtube.com/watch?v=FsoSBsrcx9Q)
+- [AWS](https://docs.aws.amazon.com/)
+- [Mlflow](https://www.mlflow.org/docs/latest/index.html)
+- [Docker](https://docs.streamlit.io/)
+- [Streamlit](https://docs.docker.com/)
 
 
