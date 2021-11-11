@@ -254,14 +254,13 @@ We might get a `Response 0` in the *Execution Results* tab.
 
 
 
-
 ## Use REST API with a simple Webapp using streamlit
 
 - [Demo Web App](https://streamlit-app-challenge.herokuapp.com/)
 - [Repo Web App](https://github.com/martinsincu/webapp_challenge)
 
 ## Referencias
-- [1. Repo Data Science Garage](https://github.com/vb100/deploy-ml-mlflow-aws/blob/main/README.md)
-- [2. Repo ScalarPy](https://github.com/ScalarPy/AWS-Sagemaker-Deploy)
+- [ScalarPy](https://www.youtube.com/watch?v=BgougRcbYCE)
+- [Data Science Garage](https://www.youtube.com/watch?v=FsoSBsrcx9Q)
 
 
